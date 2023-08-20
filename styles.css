@@ -1,0 +1,44 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+header {
+text-align: center;
+padding: 20px;
+background-color: #f0f0f0;
+}
+
+.decada {
+margin: 20px;
+padding: 10px;
+border: 1px solid #ccc;
+cursor: pointer;
+}
+
+.caixa{
+display: none;
+background-color: #f9f9f9;
+padding: 10px;
+margin-top: 10px;
+border: 1px solid #ddd;
+}
+
+.caixa figure {
+max-width: 100%;
+display: block;
+margin: 0 auto;
+text-align: center;
+}
+
+.caixa img {
+max-width: 100%;
+}
+
+.caixa figcaption {
+font-style: italic;
+margin-top: 5px;
+}
+
+.decada.open .caixa {
+display: block;
+}
